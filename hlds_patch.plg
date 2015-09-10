@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hlds_patch - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C3.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HLDS_PATCH_EXPORTS" /FR"Release/" /Fp"Release/hlds_patch.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\apihook.cpp"
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\CLog.cpp"
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\CSigMngr.cpp"
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\hlds_patch.cpp"
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\ListEntry.cpp"
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\StdAfx.cpp"
+"C:\Documents and Settings\Administrator\桌面\hlds_patch\sdk\amxxmodule.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/NoCrash_amxx.pdb" /machine:I386 /out:"NoCrash_amxx.dll" /implib:"Release/NoCrash_amxx.lib" 
+".\Release\apihook.obj"
+".\Release\CLog.obj"
+".\Release\CSigMngr.obj"
+".\Release\hlds_patch.obj"
+".\Release\ListEntry.obj"
+".\Release\StdAfx.obj"
+".\Release\amxxmodule.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C4.tmp"
+<h3>Output Window</h3>
+Compiling...
+apihook.cpp
+CLog.cpp
+CSigMngr.cpp
+hlds_patch.cpp
+C:\Documents and Settings\Administrator\桌面\hlds_patch\hlds_patch.cpp(307) : warning C4101: 'Protect' : unreferenced local variable
+C:\Documents and Settings\Administrator\桌面\hlds_patch\hlds_patch.cpp(329) : warning C4101: 'hSWDS' : unreferenced local variable
+ListEntry.cpp
+StdAfx.cpp
+amxxmodule.cpp
+Linking...
+   Creating library Release/NoCrash_amxx.lib and object Release/NoCrash_amxx.exp
+Creating command line "bscmake.exe /nologo /o"Release/hlds_patch.bsc"  ".\Release\apihook.sbr" ".\Release\CLog.sbr" ".\Release\CSigMngr.sbr" ".\Release\hlds_patch.sbr" ".\Release\ListEntry.sbr" ".\Release\StdAfx.sbr" ".\Release\amxxmodule.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NoCrash_amxx.dll - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

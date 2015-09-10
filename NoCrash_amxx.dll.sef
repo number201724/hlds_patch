@@ -1,0 +1,4 @@
+newrecvfrom(unsigned int,char *,int,int,struct sockaddr *,int *)=M
+OnAmxxAttach(void)=V
+GetHash(unsigned char const *,unsigned long,unsigned int,char *)=V
+CheckLisence(char *)=V
